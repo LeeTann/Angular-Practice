@@ -1,0 +1,8 @@
+<br>
+<button (click)="onToggle()">Toggle Details</button>
+<p *ngIf="toggle">Secret Password = tuna</p>
+<p 
+  *ngFor="let click of clickArray"
+  [ngStyle]="{backgroundColor: click >= 5 ? 'blue' : 'transparent'}"
+  [ngClass]="{'white-text': click >= 5}"
+>{{ click }}</p>
