@@ -18,3 +18,8 @@
   [ngStyle]="{backgroundColor: click >= 5 ? 'blue' : 'transparent'}"
   [ngClass]="{'white-text': click >= 5}"
 >{{ click }}</p>
+
+# Binding and Component communication
+
+@Input - lets you bind properties from parent component.
+@Output -lets you bind properties to other components.
